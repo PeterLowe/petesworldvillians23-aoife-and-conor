@@ -2,8 +2,8 @@
 // 10 November 2023
 // author Pete Lowe
 // Aoife Leahy
-//  or here
-// estimated time 120 minutes
+// Conor McDonald
+// estimate time 120 minutes
 // actual time ??
 // version 1.0
 
