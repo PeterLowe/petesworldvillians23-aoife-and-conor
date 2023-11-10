@@ -54,8 +54,30 @@ int main()
 		{
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
-<<<<<<< HEAD
-	}
+	
+		if (letter == 'x' || letter == 'z') // Written by Conor
+		{
+			if (region == 1)
+				std::cout << "There are no x's in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no x's in  Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no x's in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no x's in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no x's in the rest of the world" << std::endl;
+		}
+
+
 	if (letter == 'y' || letter == 'z')	// Written by Conor
 	{
 		if (region == 1)
@@ -76,7 +98,7 @@ int main()
 	if (region == 5)
 	{
 		std::cout << "Yemen Arabian Peninsula" << std::endl;
-=======
+
 	}	
 	if (letter == 'b' || letter == 'B') // written by Aoife
 	{
@@ -100,7 +122,7 @@ int main()
 		{
 			std::cout << "Bahamas, Bahrain Arabian Peninsula, Barbados" << std::endl;
 		}
->>>>>>> 0ef0bde2b297c25d37c05c6c53796d0d5ae82012
+
 	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
