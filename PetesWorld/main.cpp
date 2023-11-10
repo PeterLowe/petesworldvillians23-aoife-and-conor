@@ -25,12 +25,12 @@ int main()
 	std::cout << "Pick a letter from A to B or Y to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
-	{ 
+	{
 		if (letter < 'a' || letter > 'z') // not a lower case letter
 		{
 			std::cout << "You need to select a letter from A to Z" << std::endl;
-			return 0; 
-		}		
+			return 0;
+		}
 	}
 	if (letter == 'a' || letter == 'A') // written by Pete
 	{
@@ -54,6 +54,29 @@ int main()
 		{
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
+<<<<<<< HEAD
+	}
+	if (letter == 'y' || letter == 'z')	// Written by Conor
+	{
+		if (region == 1)
+			std::cout << "There are no y's in the Americas" << std::endl;
+	}
+	if (region == 2)
+	{
+		std::cout << "There are no y's in Europe" << std::endl;
+	}
+	if (region == 3)
+	{
+		std::cout << "There are no y's in Africa" << std::endl;
+	}
+	if (region == 4)
+	{
+		std::cout << "There are no y's in Asia" << std::endl;
+	}
+	if (region == 5)
+	{
+		std::cout << "Yemen Arabian Peninsula" << std::endl;
+=======
 	}	
 	if (letter == 'b' || letter == 'B') // written by Aoife
 	{
@@ -77,6 +100,7 @@ int main()
 		{
 			std::cout << "Bahamas, Bahrain Arabian Peninsula, Barbados" << std::endl;
 		}
+>>>>>>> 0ef0bde2b297c25d37c05c6c53796d0d5ae82012
 	}
 	if (letter == 'c' || letter == 'C') // written by Aoife
 	{
